@@ -48,7 +48,20 @@ Library: TMRpcm library for audio playback
 LED Count: 3 LEDs for visual indication of distance categories (far, medium, close)
 
 ### Implementation
-same thing
+Hardware Assembly
+The robot chassis was assembled accordingly. The components were connected as follows:
+
+The HC-SR04 ultrasonic sensor was wired to the Arduino, with the VCC connected to 5V, GND to GND, Trig to pin 9, and Echo to pin 10.
+The DFPlayer Mini was connected, with its VCC to 5V, GND to GND, TX to pin 11, and RX to pin 12. A small speaker was connected to the appropriate pins on the module.
+
+The software was developed using the Arduino IDE. The necessary libraries for the DFPlayer Mini and ultrasonic sensor were installed. The code included functions for setting up the components, reading distance data, and playing audio clips. It was structured with a setup function for initialization and a loop function to continuously monitor distance and trigger insults.
+
+Testing and Results
+The robot was tested in various scenarios. It successfully detected objects within a distance of 40 cm and played random insults from pre-recorded audio files. Adjustments were made to the distance thresholds and motor speed based on testing results, enhancing its responsiveness.
+
+Challenges and Solutions
+During the project, several challenges were encountered, including wiring issues and bugs in the code that affected sensor readings. These were resolved by carefully checking connections and debugging the code step-by-step, leading to successful functionality.
+
 # Installation
 same thing
 
@@ -82,15 +95,16 @@ Power Specifications: Lasts long enough to ensure the insults keep coming.
 Physical Design: Small and easily concealable, for maximum accidental encounters.
 
 # Screenshots (Add at least 3)
-(Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-![WhatsApp Image 2024-11-02 at 5 08 46 PM](https://github.com/user-attachments/assets/13a083b0-1776-4597-b9c8-23e0ec6093c2)
+![Work1](https://github.com/user-attachments/assets/1a285be3-876d-444e-bdb6-11991d9509cc)
+This is a picture of the arduino board during one of the initial connection stages. Here the LEDs, sensor and speaker are connected amd the code for the speakers to play audio is being verified, while the other member extracts the necessary audio files.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![sensortest](https://github.com/user-attachments/assets/a82411d4-03b1-46fb-997b-4846f251111d)
+This picture shows us testing the sensor and audio files by placing the hands at different distances as specified.
+
+
+![finalsetup](https://github.com/user-attachments/assets/9a25e45b-a04f-4853-b4a5-5b34bf8fd6be)
+This is a picture of the final setup of our product with all the componenets attached!
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -99,21 +113,38 @@ Physical Design: Small and easily concealable, for maximum accidental encounters
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit](https://github.com/user-attachments/assets/c242f1e8-bcfa-4ec9-8a18-5015cb80e1f6)
+
 
 ![Schematic](Add your schematic diagram here)
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![finalsetup](https://github.com/user-attachments/assets/9a25e45b-a04f-4853-b4a5-5b34bf8fd6be)
+Components:Hardware tools:Arduino UNO board, Soldering iron, Wire cutters, screwdrivers, breadboard and jumper wires, tape, LEDs, HC-SR04 ultrasonic sensor, SD card module, Speaker(3W), LM386 module
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![build1](https://github.com/user-attachments/assets/e45f24df-54ed-41fc-8b63-4d9e11c1079e)
+![sensortest](https://github.com/user-attachments/assets/ef56d8cf-37ae-42d0-b03e-8df0b4db07c2)
+![Work1](https://github.com/user-attachments/assets/95773f90-9cd2-4b31-ab4b-4295e6da9788)
+Hardware Assembly
+The robot chassis was assembled accordingly. The components were connected as follows:
+
+The HC-SR04 ultrasonic sensor was wired to the Arduino, with the VCC connected to 5V, GND to GND, Trig to pin 9, and Echo to pin 10.
+The DFPlayer Mini was connected, with its VCC to 5V, GND to GND, TX to pin 11, and RX to pin 12. A small speaker was connected to the appropriate pins on the module.
+
+The software was developed using the Arduino IDE. The necessary libraries for the DFPlayer Mini and ultrasonic sensor were installed. The code included functions for setting up the components, reading distance data, and playing audio clips. It was structured with a setup function for initialization and a loop function to continuously monitor distance and trigger insults.
+
+Testing and Results
+The robot was tested in various scenarios. It successfully detected objects within a distance of 40 cm and played random insults from pre-recorded audio files. Adjustments were made to the distance thresholds and motor speed based on testing results, enhancing its responsiveness.
+
+Challenges and Solutions
+During the project, several challenges were encountered, including wiring issues and bugs in the code that affected sensor readings. These were resolved by carefully checking connections and debugging the code step-by-step, leading to successful functionality.
+
+
+
+![finalsetup](https://github.com/user-attachments/assets/6a3d22cf-fb71-42ea-8c70-17ca431cab73)
+
 
 ### Project Demo
 # Video
@@ -124,9 +155,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Amrita Reji: Connected the circuit and debugging of code
+- Meera R S: Coding and testing 
+- Vidya S R: Coding, testing and audio editing
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
