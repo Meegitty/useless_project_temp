@@ -148,8 +148,8 @@ During the project, several challenges were encountered, including wiring issues
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://github.com/user-attachments/assets/a7159efa-cc85-4c63-89d2-fe993460773f
+The video demonstrates the working of the bot along with the explanation. The bot blurts out insults(audiofiles) depending on the range of distance the person stands. 
 
 # Additional Demos
 [Add any extra demo materials/links]
