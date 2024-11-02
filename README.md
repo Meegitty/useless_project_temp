@@ -8,7 +8,7 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
+- Team Lead: Amrita Reji - CET
 - Member 2: [Name] - [College]
 - Member 3: [Name] - [College]
 
