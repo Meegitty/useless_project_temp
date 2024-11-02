@@ -4,16 +4,16 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Mediocre Masters]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead:  -[Amrita Reji] [CET]
+- Member 2: [Vidya S R] - [CET]
+- Member 3: [Meera] - [CET]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Our(projct name) is pretty simple and straighforward. It hates to have anyone(or anything!!) around it's proximity]
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
@@ -24,18 +24,37 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [Languages used:Arduino C++
 - [Frameworks used]
-- [Libraries used]
+- [Libraries used:SD.h, TMRpcm.h,SPI.h
 - [Tools used]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [List main components:
+  Arduino uno
+  lm386 amplifier module
+  sd card module
+  sd card
+  speaker(3W)
+  LEDs
+  Resistors
+  HCSR04
+- [List specifications:
+Distance Detection Range
+Audio Playback Quality
+Power Supply
+Storage Capacity
+Microcontroller Compatibility
+- [List tools required:
+Soldering iron and solder
+Screwdriver
+Wire cutter
+Multimeter
+Tape
+Laptop
 
 ### Implementation
-For Software:
+For Software:Arduino IDE
 # Installation
 [commands]
 
@@ -87,9 +106,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Amrita]: [Specific contributions]
+- [Meera]: [Specific contributions]
+- [Vidya]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
